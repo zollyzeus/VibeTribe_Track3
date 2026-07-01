@@ -1,0 +1,442 @@
+{
+  "team_id": "TECH_TEAM_001",
+  "team_name": "AI/Data Platform Engineering Team",
+  "team_description": "Building a production AI/ML platform with real-time data ingestion, feature engineering, model serving, and analytics capabilities. This is a cross-functional team requiring expertise in data engineering, ML engineering, backend systems, and DevOps.",
+  "hiring_deadline": "2026-08-31",
+  "team_size": 5,
+  "roles": [
+    {
+      "role_id": "DATA_ENGINEER_LEAD",
+      "role_name": "Data Engineering Lead",
+      "role_description": "Lead data infrastructure and pipeline development. Responsible for designing scalable data architecture, ETL pipelines, and data quality frameworks.",
+      "seniority": "senior",
+      "experience_years": {
+        "min": 6,
+        "max": 15,
+        "ideal": 8
+      },
+      "mandatory_skills": [
+        {
+          "name": "Python",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 5
+        },
+        {
+          "name": "Apache Spark",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 3
+        },
+        {
+          "name": "SQL",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 4
+        },
+        {
+          "name": "Data Pipeline Design",
+          "min_proficiency": "advanced",
+          "weight": 0.8,
+          "years_experience": 4
+        },
+        {
+          "name": "Airflow",
+          "min_proficiency": "intermediate",
+          "weight": 0.9,
+          "years_experience": 2
+        }
+      ],
+      "important_skills": [
+        {
+          "name": "Kafka",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Snowflake",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        },
+        {
+          "name": "dbt",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        },
+        {
+          "name": "AWS",
+          "min_proficiency": "intermediate",
+          "weight": 0.5
+        }
+      ],
+      "flexible_skills": [
+        "Docker",
+        "Kubernetes",
+        "GCP",
+        "Monitoring & Alerting"
+      ],
+      "mandatory_combinations": [
+        ["Python", "Apache Spark"],
+        ["SQL", "Data Pipeline Design"]
+      ],
+      "constraints": {
+        "required_education": "bachelor",
+        "min_experience_years": 6,
+        "max_experience_years": 15,
+        "location_preference": "North America or Europe",
+        "work_mode": "remote_first"
+      }
+    },
+    {
+      "role_id": "ML_ENGINEER",
+      "role_name": "ML Engineering Specialist",
+      "role_description": "Develop and deploy machine learning models for production. Work on feature engineering, model optimization, and inference systems.",
+      "seniority": "mid",
+      "experience_years": {
+        "min": 3,
+        "max": 8,
+        "ideal": 5
+      },
+      "mandatory_skills": [
+        {
+          "name": "Python",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 4
+        },
+        {
+          "name": "Machine Learning",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 3
+        },
+        {
+          "name": "TensorFlow",
+          "min_proficiency": "intermediate",
+          "weight": 0.8,
+          "years_experience": 2
+        },
+        {
+          "name": "Model Deployment",
+          "min_proficiency": "intermediate",
+          "weight": 0.9,
+          "years_experience": 2
+        }
+      ],
+      "important_skills": [
+        {
+          "name": "PyTorch",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Feature Engineering",
+          "min_proficiency": "advanced",
+          "weight": 0.8
+        },
+        {
+          "name": "Scikit-learn",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        },
+        {
+          "name": "MLOps",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        }
+      ],
+      "flexible_skills": [
+        "NLP",
+        "Computer Vision",
+        "XGBoost",
+        "Hyperparameter Tuning"
+      ],
+      "mandatory_combinations": [
+        ["Python", "Machine Learning"],
+        ["Model Deployment", "Python"]
+      ],
+      "constraints": {
+        "required_education": "bachelor",
+        "min_experience_years": 3,
+        "max_experience_years": 8,
+        "location_preference": "Any",
+        "work_mode": "remote_first"
+      }
+    },
+    {
+      "role_id": "BACKEND_ENGINEER",
+      "role_name": "Backend Systems Engineer",
+      "role_description": "Build scalable backend services and APIs for model serving and data access. Focus on performance, reliability, and system design.",
+      "seniority": "mid",
+      "experience_years": {
+        "min": 4,
+        "max": 10,
+        "ideal": 6
+      },
+      "mandatory_skills": [
+        {
+          "name": "Python",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 4
+        },
+        {
+          "name": "Backend Development",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 4
+        },
+        {
+          "name": "System Design",
+          "min_proficiency": "intermediate",
+          "weight": 0.9,
+          "years_experience": 3
+        },
+        {
+          "name": "REST APIs",
+          "min_proficiency": "advanced",
+          "weight": 0.9,
+          "years_experience": 4
+        }
+      ],
+      "important_skills": [
+        {
+          "name": "FastAPI",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Django",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        },
+        {
+          "name": "PostgreSQL",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Docker",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        }
+      ],
+      "flexible_skills": [
+        "Kubernetes",
+        "Redis",
+        "Celery",
+        "Microservices"
+      ],
+      "mandatory_combinations": [
+        ["Python", "Backend Development"],
+        ["REST APIs", "System Design"]
+      ],
+      "constraints": {
+        "required_education": "bachelor",
+        "min_experience_years": 4,
+        "max_experience_years": 10,
+        "location_preference": "Any",
+        "work_mode": "remote_first"
+      }
+    },
+    {
+      "role_id": "DEVOPS_ENGINEER",
+      "role_name": "DevOps & Infrastructure Engineer",
+      "role_description": "Manage cloud infrastructure, CI/CD pipelines, and deployment automation. Ensure system reliability and scalability.",
+      "seniority": "mid",
+      "experience_years": {
+        "min": 3,
+        "max": 8,
+        "ideal": 5
+      },
+      "mandatory_skills": [
+        {
+          "name": "Kubernetes",
+          "min_proficiency": "intermediate",
+          "weight": 1.0,
+          "years_experience": 2
+        },
+        {
+          "name": "Docker",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 3
+        },
+        {
+          "name": "CI/CD",
+          "min_proficiency": "intermediate",
+          "weight": 0.9,
+          "years_experience": 2
+        },
+        {
+          "name": "AWS",
+          "min_proficiency": "intermediate",
+          "weight": 0.9,
+          "years_experience": 3
+        }
+      ],
+      "important_skills": [
+        {
+          "name": "Terraform",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Monitoring",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "System Administration",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        },
+        {
+          "name": "Python",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        }
+      ],
+      "flexible_skills": [
+        "GCP",
+        "Azure",
+        "Jenkins",
+        "GitLab CI",
+        "Ansible"
+      ],
+      "mandatory_combinations": [
+        ["Docker", "Kubernetes"],
+        ["CI/CD", "AWS"]
+      ],
+      "constraints": {
+        "required_education": "bachelor",
+        "min_experience_years": 3,
+        "max_experience_years": 8,
+        "location_preference": "Any",
+        "work_mode": "remote_first"
+      }
+    },
+    {
+      "role_id": "ANALYTICS_ENGINEER",
+      "role_name": "Analytics & Data Scientist",
+      "role_description": "Drive insights from data using analytics and statistical modeling. Build dashboards and reports for business intelligence.",
+      "seniority": "mid",
+      "experience_years": {
+        "min": 2,
+        "max": 7,
+        "ideal": 4
+      },
+      "mandatory_skills": [
+        {
+          "name": "Python",
+          "min_proficiency": "intermediate",
+          "weight": 1.0,
+          "years_experience": 2
+        },
+        {
+          "name": "SQL",
+          "min_proficiency": "advanced",
+          "weight": 1.0,
+          "years_experience": 3
+        },
+        {
+          "name": "Data Analysis",
+          "min_proficiency": "advanced",
+          "weight": 0.9,
+          "years_experience": 3
+        },
+        {
+          "name": "Statistical Analysis",
+          "min_proficiency": "intermediate",
+          "weight": 0.8,
+          "years_experience": 2
+        }
+      ],
+      "important_skills": [
+        {
+          "name": "Tableau",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Data Visualization",
+          "min_proficiency": "intermediate",
+          "weight": 0.7
+        },
+        {
+          "name": "Pandas",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        },
+        {
+          "name": "A/B Testing",
+          "min_proficiency": "intermediate",
+          "weight": 0.6
+        }
+      ],
+      "flexible_skills": [
+        "R",
+        "Looker",
+        "Power BI",
+        "Jupyter",
+        "Predictive Modeling"
+      ],
+      "mandatory_combinations": [
+        ["Python", "SQL"],
+        ["Data Analysis", "Statistical Analysis"]
+      ],
+      "constraints": {
+        "required_education": "bachelor",
+        "min_experience_years": 2,
+        "max_experience_years": 7,
+        "location_preference": "Any",
+        "work_mode": "remote_first"
+      }
+    }
+  ],
+  "team_level_constraints": {
+    "skill_redundancy_requirements": {
+      "Python": 3,
+      "SQL": 2,
+      "AWS": 2,
+      "System Design": 1,
+      "Machine Learning": 1
+    },
+    "mandatory_team_skills": [
+      "Python",
+      "SQL",
+      "Data Pipeline Design",
+      "Machine Learning",
+      "System Design"
+    ],
+    "flexible_team_skills": [
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "Monitoring",
+      "Cloud Services"
+    ],
+    "geographic_diversity": {
+      "enabled": false,
+      "preferred_regions": ["North America", "Europe"]
+    },
+    "company_diversity": {
+      "enabled": false,
+      "avoid_repeats": true
+    },
+    "max_from_same_company": 2,
+    "preferred_work_mode": "remote_first"
+  },
+  "weighting": {
+    "individual_role_fit": 0.40,
+    "skill_redundancy": 0.20,
+    "team_level_coverage": 0.25,
+    "multi_role_capability": 0.15
+  },
+  "candidate_filters": {
+    "min_profile_completeness": 0.70,
+    "open_to_work_required": true,
+    "verified_contact_preferred": true,
+    "min_engagement_score": 0.3
+  }
+}
